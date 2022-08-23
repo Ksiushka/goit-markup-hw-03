@@ -1,0 +1,235 @@
+:root {
+	--main-text-color: #212121;
+	--second-text-color: #757575;
+	--accent-color: #2196f3;
+	--hero-text-color: #ffffff;
+	--accent-background-color: #2F303A;
+}
+
+body {
+	background-color: #fff;
+	color: #212121;
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+}
+
+.logo {
+	color: #2196f3;
+	text-decoration: none;
+}
+
+.logo-black {
+	color: #000000;
+}
+
+.logo-white {
+	color: #ffffff;
+}
+
+ul {
+	list-style: none;
+}
+
+.mail-tel a {
+	color: #757575;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	text-decoration: none;
+}
+
+.mail-tel a:hover,
+.mail-tel a:focus {
+	color: #2196f3;
+}
+
+.section-one {
+	background-color: var(--accent-background-color);
+}
+
+.heads-links a {
+	color: #212121;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+
+	text-decoration: none;
+}
+
+.heads-links a:hover,
+.heads-links a:focus {
+	color: #2196f3;
+}
+
+.section-hero-title {
+	color: var(--hero-text-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.section-title ;
+.features-list .title ;
+.team-list .title ;
+ {
+	color: var(--main-text-color);
+	text-decoration: none;
+}
+.portfolio-list a {
+	text-decoration: none;
+}
+
+.portfolio-list .title {
+	color: var(--main-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.7;
+	text-align: center;
+}
+
+.section-team {
+	background-color: #F5F4FA;
+}
+
+p {
+	color: #757575;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.portfolio-list>p {
+	color: #757575;
+	font-size: 16px;
+	line-height: 1.9;
+}
+
+.button:hover,
+.button:focus {
+	color: #188CE8;
+}
+
+.button {
+	color: var(--hero-text-color);
+	background-color: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	width: 216px;
+	height: 50px;
+	left: 692px;
+	top: 430px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.9;
+	cursor: pointer;
+}
+
+.filter button {
+	background-color: #f5f4fa;
+	color: #212121;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.filter button:hover,
+.filter button:focus {
+	color: var(--hero-text-color);
+	background-color: var(--accent-color);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+nav .current {
+	color: var(--accent-color);
+}
+
+footer {
+	background-color: var(--accent-background-color);
+}
+
+.mail-tel-footer:hover,
+.mail-tel-footer:focus {
+	color: var(--accent-color);
+}
+
+.mail-tel-footer {
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.7;
+	font-style: normal;
+}
+
+.address {
+	color: var(--hero-text-color);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.7;
+	font-style: normal;
+}
+
+nav > a {
+	font-family: Raleway, sans-serif;
+
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+}
+
+.team-list .title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.9;
+	text-align: center;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.1;
+
+	text-decoration: none;
+}
+
+.features-list p {
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.team-list p {
+	font-size: 16px;
+	line-height: 1.9;
+	text-align: center;
+}
+
+
+
+/*основной цвет #212121 */
+/*вторичный цвет #757575 */
+/*белый #FFFFFF */
+/*цвет акцент #2196F3 */
