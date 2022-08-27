@@ -25,6 +25,8 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
+	padding-top: 24px;
+	padding-bottom: 25px;
 }
 
 .logo-black {
@@ -59,7 +61,7 @@ ul {
 .section-one {
 	background-color: var(--accent-background-color);
 	text-align: center;
-	margin-bottom: 94px;
+	margin-bottom: 0;
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -71,6 +73,7 @@ ul {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+
 
 	text-decoration: none;
 }
@@ -102,7 +105,7 @@ ul {
 
 .features-list {
 	padding-top: 94px;
-	padding-bottom: 94px;
+	margin-bottom: 94px;
 }
 
 .section-features {
@@ -110,12 +113,16 @@ ul {
 }
 
 .section-wedo {
-	padding-top: 94px;
-	padding-bottom: 94px;
+	padding-top: 0;
+	padding-bottom: 86px;
 }
 
 .portfolio-list a {
 	text-decoration: none;
+}
+
+.portfolio-list li{
+	margin-bottom: 30px;
 }
 
 .portfolio-list .title {
@@ -123,6 +130,8 @@ ul {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
+	padding-top: 20px;
+	margin-bottom: 4px;
 }
 
 .section-title {
@@ -136,7 +145,7 @@ ul {
 
 .section-team {
 	background-color: var(--section-team-background);
-	padding-top: 94px;
+	padding-top: 102px;
 	padding-bottom: 94px;
 }
 
@@ -210,8 +219,13 @@ nav .current {
 
 footer {
 	background-color: var(--accent-background-color);
-	padding-top: 94px;
-	padding-bottom: 94px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+footer .logo {
+	padding: 0;
+	margin-bottom: 20px;
 }
 
 .logo,
@@ -245,6 +259,10 @@ footer {
 	font-size: 16px;
 	line-height: 1.9;
 	text-align: center;
+}
+
+.photo {
+	margin-bottom: 30px;
 }
 
 .title {
@@ -282,6 +300,10 @@ h3>.title {
 	width: 1200px;
 }
 
+.portfolio {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
 
 /*основной цвет #212121 */
 /*вторичный цвет #757575 */
