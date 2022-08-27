@@ -60,6 +60,8 @@ ul {
 	background-color: var(--accent-background-color);
 	text-align: center;
 	margin-bottom: 94px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .heads-links a {
@@ -94,6 +96,22 @@ ul {
 .team-list .title ; {
 	color: var(--main-text-color);
 	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.features-list {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.section-features {
+	
+}
+
+.section-wedo {
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .portfolio-list a {
@@ -112,18 +130,23 @@ ul {
 	font-size: 36px;
 	line-height: 1.7;
 	text-align: center;
+	margin-top: 0;
+	margin-bottom: 50;
 }
 
 .section-team {
 	background-color: var(--section-team-background);
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
+
 
 p {
 	color: var(--second-text-color);
 	text-decoration: none;
 	font-size: 14px;
 	line-height: 1.7;
-	
+	margin-top: 10;
 }
 
 .list-name {
@@ -187,6 +210,13 @@ nav .current {
 
 footer {
 	background-color: var(--accent-background-color);
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.logo,
+.logo-white {
+	margin-bottom: 20px;
 }
 
 .mail-tel-footer:hover,
@@ -231,7 +261,6 @@ footer {
 	font-size: 14px;
 	line-height: 1.7;
 	margin-top: 0;
-	margin-bottom: 118;
 
 }
 
@@ -239,6 +268,12 @@ footer {
 	font-size: 16px;
 	line-height: 1.9;
 	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h3>.title {
+	margin-bottom: 10;
 }
 
 .container {
