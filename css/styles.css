@@ -26,7 +26,10 @@ body {
 	font-size: 26px;
 	line-height: 1.2;
 	padding-top: 24px;
-	padding-bottom: 25px;
+	
+	padding-left: 215px;
+	
+	
 }
 
 .logo-black {
@@ -41,6 +44,21 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.mail-tel {
+	display: flex;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: 215px;
+
+	align-items: center;
+}
+
+.mail-tel :not(:last-child) {
+	margin-right: 50px;
 }
 
 .mail-tel a {
@@ -58,12 +76,32 @@ ul {
 	color: var(--accent-color);
 }
 
+.main-nav {
+	display: flex;
+	align-items: center;
+}
+
 .section-one {
 	background-color: var(--accent-background-color);
 	text-align: center;
 	margin-bottom: 0;
 	padding-top: 200px;
 	padding-bottom: 200px;
+}
+
+.heads-links {
+	display: flex;
+	margin-left: 93px;
+}
+
+.heads-links-list {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.heads-links-list:not(:last-child) {
+	margin-right: 50px;
 }
 
 .heads-links a {
@@ -73,8 +111,8 @@ ul {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-
-
+	padding-top: 32px;
+	padding-bottom: 32px;
 	text-decoration: none;
 }
 
@@ -82,6 +120,7 @@ ul {
 .heads-links a:focus {
 	color: var(--accent-color);
 }
+
 
 .section-hero-title {
 	color: var(--hero-text-color);
@@ -104,8 +143,13 @@ ul {
 }
 
 .features-list {
+	display: flex;
 	padding-top: 94px;
 	margin-bottom: 94px;
+}
+
+.features-list li:not(:last-child) {
+	margin-right: 30px;
 }
 
 .section-features {
@@ -115,22 +159,40 @@ ul {
 .section-wedo {
 	padding-top: 0;
 	padding-bottom: 86px;
+	
+}
+
+.section-wedo ul {
+	display: flex;
+}
+
+.section-wedo li:not(:last-child) {
+	margin-right: 30px;
+}
+
+.portfolio-list {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .portfolio-list a {
 	text-decoration: none;
+	color: var(--main-text-color);
 }
 
 .portfolio-list li{
+	margin-right: 30px;
 	margin-bottom: 30px;
 }
 
-.portfolio-list .title {
+.portfolio-list li:nth-child(3n)
+
+h2 .portfolio-title {
 	color: var(--main-text-color);
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
-	padding-top: 20px;
+	margin-top: 20px;
 	margin-bottom: 4px;
 }
 
@@ -149,6 +211,13 @@ ul {
 	padding-bottom: 94px;
 }
 
+.section-team ul {
+	display: flex;
+}
+
+.section-team li:not(:last-child) {
+	margin-right: 30px;
+}
 
 p {
 	color: var(--second-text-color);
@@ -162,6 +231,9 @@ p {
 	color: var(--second-text-color);
 	font-size: 16px;
 	line-height: 1.9;
+	padding-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .button:hover,
@@ -182,6 +254,20 @@ p {
 	border-radius: 4px;
 	padding: 10px 32px;
 	text-align: center;
+}
+.filter {
+	display: flex;
+}
+
+.filter li {
+	margin-left: auto;
+	margin-right: 298px;
+	margin-bottom: 50px;
+	align-items: center;
+}
+
+.filter li:not(:last-child) {
+	margin-right: 8px;
 }
 
 .filter button {
@@ -290,19 +376,26 @@ footer .logo {
 	margin-bottom: 0;
 }
 
-h3>.title {
+.title {
 	margin-bottom: 10;
 }
 
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1200px;
+	width: 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
 }
 
 .portfolio {
 	padding-top: 94px;
 	padding-bottom: 94px;
+}
+
+.site-nav {
+	align-items: center;
 }
 
 /*основной цвет #212121 */
