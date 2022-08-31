@@ -17,6 +17,10 @@ body {
 	font-size: 14px;
 }
 
+header {
+	border-bottom: 1px solid #ECECEC;;
+}
+
 h1,
 h2,
 h3,
@@ -33,13 +37,13 @@ img {
 	height: auto;
 }
 
-section {
+.section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
 .container {
-	width: 1230px;
+	width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -86,8 +90,6 @@ ul {
 
 .mail-tel {
 	display: flex;
-	padding-top: 32px;
-	padding-bottom: 32px;
 	margin-left: auto;
 }
 
@@ -102,8 +104,6 @@ ul {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
     display: block;
-	padding-top: 32px;
-	padding-bottom: 32px;
 	text-decoration: none;
 }
 
@@ -182,6 +182,10 @@ ul {
 	margin-right: 30px;
 }
 
+.section-wedo {
+	padding-top: 0;
+}
+
 .section-wedo ul {
 	display: flex;
 	margin-top: 50px;
@@ -213,7 +217,7 @@ ul {
 	color: var(--main-text-color);
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 1.2;
+	line-height: 2;
 	margin-bottom: 4px;
 }
 
@@ -238,19 +242,11 @@ ul {
 	margin-right: 30px;
 }
 
-p {
-	color: var(--second-text-color);
-	text-decoration: none;
-	font-size: 14px;
-	line-height: 1.7;
-}
 
 .list-name {
 	color: var(--second-text-color);
 	font-size: 16px;
-	line-height: 1.2;
-	margin-top: 0;
-	margin-bottom: 0;
+	line-height: 1.9;
 }
 
 .button:hover,
@@ -378,29 +374,25 @@ footer .logo {
 	font-size: 14px;
 	line-height: 1.7;
 	margin-top: 10px;
-
+	color: var(--second-text-color);
+	text-decoration: none;
 }
 
 .team-list p {
 	font-size: 16px;
-	line-height: 1.9;
+	line-height: 1.2;
 	text-align: center;
-	margin-top: 0;
-	margin-bottom: 0;
+	color: var(--second-text-color);
 }
 
 .title {
 	margin-bottom: 10;
 }
 
-.portfolio {
-	padding-top: 94px;
-	padding-bottom: 94px;
-}
-
 .under-photo-portfolio {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px 24px;
+	border: 1px solid #EEEEEE;
+	border-top: none;
 }
 
 .site-nav a {
